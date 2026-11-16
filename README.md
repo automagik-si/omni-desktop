@@ -1,4 +1,4 @@
-> **Omni desktop moved.** It is now the Automagik desktop app, built and released from [automagik-dev/automagik](https://github.com/automagik-dev/automagik) (`apps/desktop`). An installed Omni desktop updates into it by itself and keeps everything; new downloads are on [Automagik's releases](https://github.com/automagik-dev/automagik/releases/latest). This repository's releases stay up for the copies already out there.
+> **Omni desktop moved.** It is now the Automagik desktop app, built and released from [automagik-si/automagik](https://github.com/automagik-si/automagik) (`apps/desktop`). An installed Omni desktop updates into it by itself and keeps everything; new downloads are on [Automagik's releases](https://github.com/automagik-si/automagik/releases/latest). This repository's releases stay up for the copies already out there.
 
 <p align="center"><img src="assets/icon.png" width="112" alt="The Omni octopus"></p>
 
@@ -8,15 +8,15 @@
 WhatsApp, Telegram, Slack and more, in one window, with helpers that act the moment something happens.</p>
 
 <p align="center">
-  <a href="https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Mac.dmg"><b>⬇ Download for Mac</b></a>
+  <a href="https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Mac.dmg"><b>⬇ Download for Mac</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Linux.deb"><b>⬇ Download for Linux (Ubuntu, Debian)</b></a>
+  <a href="https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Linux.deb"><b>⬇ Download for Linux (Ubuntu, Debian)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Linux.AppImage">Linux (AppImage)</a>
+  <a href="https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Linux.AppImage">Linux (AppImage)</a>
 </p>
 
 <p align="center"><sub>Mac with Apple silicon (M1 or newer), macOS 13 or newer · Linux on a 64-bit PC · Windows is not supported yet<br>
-Free and open source. <a href="https://github.com/automagik-dev/omni-desktop/releases/latest">All downloads and what's new</a></sub></p>
+Free and open source. <a href="https://github.com/automagik-si/omni-desktop/releases/latest">All downloads and what's new</a></sub></p>
 
 ---
 
@@ -38,7 +38,7 @@ You need two things. The app walks you through both, and you can skip either and
 
 ## Install on a Mac
 
-1. **[Download Omni for Mac](https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Mac.dmg)**. It's about 330 MB.
+1. **[Download Omni for Mac](https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Mac.dmg)**. It's about 330 MB.
 2. Open the file you downloaded (**Omni-Mac.dmg**, in your Downloads folder).
 3. In the window that opens, **drag the Omni icon onto the Applications folder**.
 4. Open **Omni** from your Applications folder (or press ⌘ Space and type *Omni*).
@@ -50,11 +50,11 @@ You can then eject the Omni disk in Finder's sidebar and delete the downloaded f
 
 **Ubuntu or Debian (recommended):**
 
-1. **[Download Omni for Linux (.deb)](https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Linux.deb)**.
+1. **[Download Omni for Linux (.deb)](https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Linux.deb)**.
 2. Double-click the downloaded file and choose **Install**, or in a terminal run `sudo apt install ./Omni-Linux.deb` from your Downloads folder.
 3. Open **Omni** from your apps.
 
-**Other Linux (AppImage):** [download the AppImage](https://github.com/automagik-dev/omni-desktop/releases/latest/download/Omni-Linux.AppImage), right-click it, open **Properties → Permissions**, tick **Allow executing file as program**, then double-click it. If it doesn't start, your system may need `libfuse2` (on Ubuntu: `sudo apt install libfuse2t64`), or use the .deb instead.
+**Other Linux (AppImage):** [download the AppImage](https://github.com/automagik-si/omni-desktop/releases/latest/download/Omni-Linux.AppImage), right-click it, open **Properties → Permissions**, tick **Allow executing file as program**, then double-click it. If it doesn't start, your system may need `libfuse2` (on Ubuntu: `sudo apt install libfuse2t64`), or use the .deb instead.
 
 ## Your first five minutes
 
@@ -91,8 +91,8 @@ A build follows its own channel: a stable release only moves to newer stable rel
 
 ## Help
 
-Something not working, or an idea? [Open an issue](https://github.com/automagik-dev/omni-desktop/issues) and tell us what you did and what you saw.
+Something not working, or an idea? [Open an issue](https://github.com/automagik-si/omni-desktop/issues) and tell us what you did and what you saw.
 
 ---
 
-<sub>For developers: Omni desktop is the [Omni](https://github.com/automagik-dev/omni) UI on a DeepSeek Harness of its own, and each release carries one Omni release at the same version. How it's built, released and updated: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md). Apache-2.0.</sub>
+<sub>For developers: Omni desktop is the [Omni](https://github.com/automagik-si/omni) UI on a DeepSeek Harness of its own, and each release carries one Omni release at the same version. How it's built, released and updated: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md). Apache-2.0.</sub>
